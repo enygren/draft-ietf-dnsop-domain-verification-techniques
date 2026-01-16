@@ -29,4 +29,5 @@ jobs:
     - name: "Save Archive"
       uses: actions/upload-artifact@v4
       with:
+        name: "archive.json"
         path: archive.json
